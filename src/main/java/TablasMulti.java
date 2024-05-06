@@ -1,5 +1,3 @@
-package com.example.tablas;
-
 import java.util.Scanner;
 
 public class TablasMulti {

@@ -1,5 +1,3 @@
-package com.example.tablas;
-
 import java.util.Scanner;
 
 public class menuTablas {
@@ -8,11 +6,13 @@ public class menuTablas {
         TablasMulti tablas = new TablasMulti();
 
         Scanner in = new Scanner(System.in);
+        System.out.println("Introduce tu nombre: ");
+        String name = in.nextLine();
         int opcion;
+        System.out.println("Hola " + name);
         System.out.println("Selecciona una opcionión: \n1. Mostrar una tabla\n2. Mostrar tablas del 2 al 5\n3. Salir");
         opcion = in.nextInt();
 
-        do {
             switch (opcion) {
                 case 1:
                     tablas.mostrarTabla();
@@ -25,8 +25,8 @@ public class menuTablas {
                     break;
                 case 3:
                     System.out.println("Hasta luego");
+                    break;
             }
-        } while (opcion != 3);
 
         in.close();
     }
