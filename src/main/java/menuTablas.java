@@ -10,7 +10,7 @@ public class menuTablas {
         String name = in.nextLine();
         int opcion;
         System.out.println("Hola " + name);
-        System.out.println("Selecciona una opcionión: \n1. Mostrar una tabla\n2. Mostrar tablas del 2 al 5\n3. Salir");
+        System.out.println("Selecciona una opción: \n1. Mostrar una tabla\n2. Mostrar tablas del 2 al 5\n3. Salir");
         opcion = in.nextInt();
 
             switch (opcion) {
